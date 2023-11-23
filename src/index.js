@@ -1,5 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import Weather from "./Weather";
+import Forecast from "./Forecast";
 
 import "./App.css";
 
@@ -16,11 +18,13 @@ root.render(
         Create a new component called Weather which renders a "Current
         Temperature" button. Add the button here.
       </p>
+      <Weather />
 
       <h3>Challenge 2</h3>
       <p>
         When the button is clicked, alert "Coming soon..." Add the button here.
       </p>
+      <Weather />
 
       <h3>Challenge 3</h3>
       <p>
@@ -28,6 +32,7 @@ root.render(
         forecast". When clicking on it, alert "Forecast feature is not ready
         yet". Include the component here.
       </p>
+      <Forecast />
     </div>
   </StrictMode>
 );
